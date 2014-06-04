@@ -1,4 +1,4 @@
-# grunt-t2c
+# grunt-t2c ![Travis CI Status](https://api.travis-ci.org/johanjordaan/grunt-t2c.svg?branch=master "Travis CI Status")
 
 > Grunt t2c(text2code) plugin.
 
