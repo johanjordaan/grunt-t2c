@@ -11,7 +11,7 @@
     _results = [];
     for (_i = 0, _len = surnames.length; _i < _len; _i++) {
       surname = surnames[_i];
-      _results.push(output += "Hallo from  " + ctx.name);
+      _results.push(output += "Hallo from  " + ctx.name + "\n");
     }
     return _results;
   };

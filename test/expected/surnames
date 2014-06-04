@@ -5,5 +5,5 @@ template = (ctx) ->
   output = ''
   surnames = ['Jordaan','Evert']
   for surname in surnames 
-    output += "Hallo from  #{ctx.name}"
+    output += "Hallo from  #{ctx.name}\n"
 module.exports = template
