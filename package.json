@@ -1,0 +1,45 @@
+{
+  "name": "grunt-t2c",
+  "description": "Grunt t2c(text2code) plugin.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/johanjordaan/grunt-t2c",
+  "author": {
+    "name": "Johan Jordaan",
+    "email": "djjordaan@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/johanjordaan/grunt-t2c"
+  },
+  "bugs": {
+    "url": "https://github.com/johanjordaan/grunt-t2c/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/johanjordaan/grunt-t2c/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies":{
+    "t2c":"*"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}

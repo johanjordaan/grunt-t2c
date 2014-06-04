@@ -1,0 +1,3 @@
+surnames = ['Jordaan','Evert']
+for surname in surnames 
+  #| Hallo from  #{ctx.name}
